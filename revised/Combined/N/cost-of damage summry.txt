@@ -1,0 +1,69 @@
+
+Model Summary for Model 1: No of Accidents vs. Cost of Damage:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:         Cost_of_Damage   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:            -1.6787e+07
+Date:                Tue, 06 Aug 2024   Deviance:                   3.3575e+07
+Time:                        11:43:07   Pearson chi2:                 3.49e+07
+No. Iterations:                     5   Pseudo R-squ. (CS):              1.000
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              16.2402      0.000   3.34e+04      0.000      16.239      16.241
+No_of_Accidents    -0.0142   2.11e-05   -672.022      0.000      -0.014      -0.014
+===================================================================================
+Deviance: 33574531.629927225
+AIC: 33574639.514838025
+Pseudo R-squared (McFadden): 0.013801559465043134
+
+
+Model Summary for Model 2: No of Accidents vs. No Damage to PR:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:         No_Damge_to_PR   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.127
+Date:                Tue, 06 Aug 2024   Deviance:                       2.4730
+Time:                        11:43:07   Pearson chi2:                     2.22
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.7402
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               1.5053      0.378      3.978      0.000       0.764       2.247
+No_of_Accidents     0.0422      0.014      2.948      0.003       0.014       0.070
+===================================================================================
+Deviance: 2.4729702929853583
+AIC: 32.25328807128936
+Pseudo R-squared (McFadden): 0.7658280012386006
+
+
+Model Summary for Model 3: No of Accidents vs. Cause Damage to PR:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:      Cause_Damge_to_PR   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.060
+Date:                Tue, 06 Aug 2024   Deviance:                       3.3522
+Time:                        11:43:07   Pearson chi2:                     3.68
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.5127
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               1.5281      0.413      3.704      0.000       0.719       2.337
+No_of_Accidents     0.0342      0.016      2.145      0.032       0.003       0.065
+===================================================================================
+Deviance: 3.3522019660484856
+AIC: 32.12030569271617
+Pseudo R-squared (McFadden): 0.5626691161351434
+

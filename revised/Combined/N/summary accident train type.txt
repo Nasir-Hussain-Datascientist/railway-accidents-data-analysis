@@ -1,0 +1,24 @@
+
+Model Summary for Train Types Accident Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        2
+Model Family:                 Poisson   Df Model:                            3
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.891
+Date:                Tue, 06 Aug 2024   Deviance:                      0.11596
+Time:                        11:31:41   Pearson chi2:                    0.116
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8752
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                2.1481      0.343      6.260      0.000       1.476       2.821
+Passenager_train     0.0385      0.011      3.364      0.001       0.016       0.061
+Goods_Train          0.0465      0.028      1.689      0.091      -0.007       0.100
+Other_Train          0.0249      0.123      0.203      0.839      -0.215       0.265
+====================================================================================Deviance: 0.11595693016880915
+AIC: 37.78172574166691
+Pseudo R-squared (McFadden): 0.9908003236630153
+

@@ -1,0 +1,176 @@
+
+Model Summary for Casualties vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             Casualties   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -12.414
+Date:                Tue, 06 Aug 2024   Deviance:                       4.1256
+Time:                        11:52:43   Pearson chi2:                     4.06
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.2321
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.9903      0.574      1.724      0.085      -0.136       2.116
+No_of_Accidents     0.0291      0.022      1.296      0.195      -0.015       0.073
+===================================================================================
+Deviance: 4.125626643842054
+AIC: 28.827486980372534
+Log-Likelihood: -12.413743490186267
+
+Model Summary for No_Casualties vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:          No_Casualties   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.565
+Date:                Tue, 06 Aug 2024   Deviance:                       1.2592
+Time:                        11:52:43   Pearson chi2:                     1.26
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8377
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               1.8656      0.319      5.847      0.000       1.240       2.491
+No_of_Accidents     0.0414      0.012      3.423      0.001       0.018       0.065
+===================================================================================
+Deviance: 1.2592394067073904
+AIC: 33.12909895993949
+Log-Likelihood: -14.564549479969745
+
+Model Summary for No_of_Deaths vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:           No_of_Deaths   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -12.784
+Date:                Tue, 06 Aug 2024   Deviance:                       5.3479
+Time:                        11:52:43   Pearson chi2:                     4.89
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.6647
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.3524      0.573      0.615      0.538      -0.770       1.475
+No_of_Accidents     0.0557      0.021      2.660      0.008       0.015       0.097
+===================================================================================
+Deviance: 5.34788502114503
+AIC: 29.56890470502327
+Log-Likelihood: -12.784452352511636
+
+Model Summary for No_of_Injuries vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:         No_of_Injuries   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -18.685
+Date:                Tue, 06 Aug 2024   Deviance:                       17.786
+Time:                        11:52:43   Pearson chi2:                     15.8
+No. Iterations:                     5   Pseudo R-squ. (CS):             0.9939
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.1616      0.487     -0.332      0.740      -1.116       0.792
+No_of_Accidents     0.0918      0.016      5.629      0.000       0.060       0.124
+===================================================================================
+Deviance: 17.786162623162777
+AIC: 41.37037645459448
+Log-Likelihood: -18.68518822729724
+
+Model Summary for Casualties vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             Casualties   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -12.414
+Date:                Tue, 06 Aug 2024   Deviance:                       4.1256
+Time:                        11:53:06   Pearson chi2:                     4.06
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.2321
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.9903      0.574      1.724      0.085      -0.136       2.116
+No_of_Accidents     0.0291      0.022      1.296      0.195      -0.015       0.073
+===================================================================================
+Deviance: 4.125626643842054
+AIC: 28.827486980372534
+Log-Likelihood: -12.413743490186267
+
+Model Summary for No_Casualties vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:          No_Casualties   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.565
+Date:                Tue, 06 Aug 2024   Deviance:                       1.2592
+Time:                        11:53:06   Pearson chi2:                     1.26
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8377
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               1.8656      0.319      5.847      0.000       1.240       2.491
+No_of_Accidents     0.0414      0.012      3.423      0.001       0.018       0.065
+===================================================================================
+Deviance: 1.2592394067073904
+AIC: 33.12909895993949
+Log-Likelihood: -14.564549479969745
+
+Model Summary for No_of_Deaths vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:           No_of_Deaths   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -12.784
+Date:                Tue, 06 Aug 2024   Deviance:                       5.3479
+Time:                        11:53:06   Pearson chi2:                     4.89
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.6647
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.3524      0.573      0.615      0.538      -0.770       1.475
+No_of_Accidents     0.0557      0.021      2.660      0.008       0.015       0.097
+===================================================================================
+Deviance: 5.34788502114503
+AIC: 29.56890470502327
+Log-Likelihood: -12.784452352511636
+
+Model Summary for No_of_Injuries vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:         No_of_Injuries   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -18.685
+Date:                Tue, 06 Aug 2024   Deviance:                       17.786
+Time:                        11:53:06   Pearson chi2:                     15.8
+No. Iterations:                     5   Pseudo R-squ. (CS):             0.9939
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.1616      0.487     -0.332      0.740      -1.116       0.792
+No_of_Accidents     0.0918      0.016      5.629      0.000       0.060       0.124
+===================================================================================
+Deviance: 17.786162623162777
+AIC: 41.37037645459448
+Log-Likelihood: -18.68518822729724
