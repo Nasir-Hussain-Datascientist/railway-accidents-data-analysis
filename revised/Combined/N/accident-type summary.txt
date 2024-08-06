@@ -1,0 +1,110 @@
+
+Model Summary for Derailments Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:            Derailments   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                          5.1280
+Method:                          IRLS   Log-Likelihood:                -12.201
+Date:                Tue, 06 Aug 2024   Deviance:                       20.512
+Time:                        11:02:12   Pearson chi2:                     20.5
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.4614
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               7.0131      3.080      2.277      0.023       0.977      13.049
+No of accidents     0.2347      0.130      1.811      0.070      -0.019       0.489
+===================================================================================Deviance: 20.51200873362445
+AIC: 28.402768622204096
+Pseudo R-squared (McFadden): 0.45057119463505935
+
+
+Model Summary for Collisions Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:             Collisions   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                          3.3008
+Method:                          IRLS   Log-Likelihood:                -10.880
+Date:                Tue, 06 Aug 2024   Deviance:                       13.203
+Time:                        11:02:12   Pearson chi2:                     13.2
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.8297
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -4.3559      2.471     -1.763      0.078      -9.198       0.487
+No of accidents     0.3319      0.104      3.192      0.001       0.128       0.536
+===================================================================================Deviance: 13.20305676855895
+AIC: 25.759395840041908
+Pseudo R-squared (McFadden): 0.7180841971126203
+
+
+Model Summary for Collisions at LC Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:       Collisions at LC   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                          2.2031
+Method:                          IRLS   Log-Likelihood:                -9.6668
+Date:                Tue, 06 Aug 2024   Deviance:                       8.8122
+Time:                        11:02:12   Pearson chi2:                     8.81
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.9317
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -1.2882      2.018     -0.638      0.523      -5.244       2.668
+No of accidents     0.3362      0.085      3.958      0.000       0.170       0.503
+===================================================================================Deviance: 8.812227074235807
+AIC: 23.333546767243632
+Pseudo R-squared (McFadden): 0.7966409136714814
+
+
+Model Summary for Fire Accidents Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:         Fire Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                         0.16539
+Method:                          IRLS   Log-Likelihood:                -1.8989
+Date:                Tue, 06 Aug 2024   Deviance:                      0.66157
+Time:                        11:02:12   Pearson chi2:                    0.662
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.6003
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.6878      0.553     -1.244      0.214      -1.772       0.396
+No of accidents     0.0524      0.023      2.252      0.024       0.007       0.098
+===================================================================================Deviance: 0.6615720524017467
+AIC: 7.797887311458845
+Pseudo R-squared (McFadden): 0.5589519650655022
+
+
+Model Summary for Overshooting  Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:          Overshooting    No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                         0.18040
+Method:                          IRLS   Log-Likelihood:                -2.1596
+Date:                Tue, 06 Aug 2024   Deviance:                      0.72162
+Time:                        11:02:12   Pearson chi2:                    0.722
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.4713
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -0.6812      0.578     -1.179      0.238      -1.813       0.451
+No of accidents     0.0448      0.024      1.841      0.066      -0.003       0.092
+===================================================================================Deviance: 0.7216157205240175
+AIC: 8.319130434153077
+Pseudo R-squared (McFadden): 0.45878820960698685
+

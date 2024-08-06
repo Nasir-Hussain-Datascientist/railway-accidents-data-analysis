@@ -1,0 +1,198 @@
+
+Model Summary for Accident Types Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No of accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        0
+Model Family:                   Gamma   Df Model:                            5
+Link Function:                    log   Scale:                             inf
+Method:                          IRLS   Log-Likelihood:                    nan
+Date:                Tue, 06 Aug 2024   Deviance:                    0.0012588
+Time:                        01:32:50   Pearson chi2:                  0.00124
+No. Iterations:                     1   Pseudo R-squ. (CS):                nan
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                3.5626        inf          0      1.000        -inf         inf
+Derailments         -0.0472        inf         -0      1.000        -inf         inf
+Collisions           0.1738        inf          0      1.000        -inf         inf
+Collisions at LC    -0.1331        inf         -0      1.000        -inf         inf
+Fire Accidents       1.0353        inf          0      1.000        -inf         inf
+Overshooting        -0.3544        inf         -0      1.000        -inf         inf
+====================================================================================Deviance: 0.0012587724661316376
+AIC: nan
+Pseudo R-squared (McFadden): 0.9975947822944287
+
+
+Model Summary for Location of Accidents Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No of Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        3
+Model Family:                 Poisson   Df Model:                            2
+Link Function:                    log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.859
+Date:                Tue, 06 Aug 2024   Deviance:                      0.17984
+Time:                        01:34:04   Pearson chi2:                    0.180
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8708
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                           2.2274      0.326      6.827      0.000       1.588       2.867
+Accidents at Track              0.0398      0.014      2.818      0.005       0.012       0.068
+Accidents in Station Limits     0.0340      0.036      0.958      0.338      -0.036       0.104
+===============================================================================================Deviance: 0.17984488833343423
+AIC: 35.71868925318508
+Pseudo R-squared (McFadden): 0.9855634423962724
+
+
+Model Summary for Train Types Accident Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        2
+Model Family:                 Poisson   Df Model:                            3
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.891
+Date:                Tue, 06 Aug 2024   Deviance:                      0.11596
+Time:                        01:38:52   Pearson chi2:                    0.116
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8752
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                2.1481      0.343      6.260      0.000       1.476       2.821
+Passenager_train     0.0385      0.011      3.364      0.001       0.016       0.061
+Goods_Train          0.0465      0.028      1.689      0.091      -0.007       0.100
+Other_Train          0.0249      0.123      0.203      0.839      -0.215       0.265
+====================================================================================Deviance: 0.11595693016880915
+AIC: 37.78172574166691
+Pseudo R-squared (McFadden): 0.9908003236630153
+
+
+Model Summary for Model 1: Cost of Damage vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                 Poisson   Df Model:                            1
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -20.912
+Date:                Tue, 06 Aug 2024   Deviance:                       12.286
+Time:                        01:39:42   Pearson chi2:                     13.0
+No. Iterations:                     4   Pseudo R-squ. (CS):            0.02822
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              3.1624      0.131     24.107      0.000       2.905       3.420
+Cost_of_Damage -5.122e-09   1.24e-08     -0.412      0.680   -2.95e-08    1.93e-08
+==================================================================================
+Deviance: 12.285861623758153
+AIC: 45.8247059886098
+Pseudo R-squared (McFadden): 0.013785986989112708
+
+
+Model Summary for Model 2: No Damage to PR and Cause Damage to PR vs. No of Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        3
+Model Family:                 Poisson   Df Model:                            2
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.842
+Date:                Tue, 06 Aug 2024   Deviance:                      0.14506
+Time:                        01:39:42   Pearson chi2:                    0.145
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8715
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 2.1850      0.293      7.464      0.000       1.611       2.759
+No_Damge_to_PR        0.0353      0.018      2.006      0.045       0.001       0.070
+Cause_Damge_to_PR     0.0443      0.027      1.641      0.101      -0.009       0.097
+=====================================================================================
+Deviance: 0.14505701529935808
+AIC: 35.68390138015101
+Pseudo R-squared (McFadden): 0.9883559439659388
+
+
+Model Summary for Seasonal Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        1
+Model Family:                 Poisson   Df Model:                            4
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.859
+Date:                Tue, 06 Aug 2024   Deviance:                      0.17931
+Time:                        01:42:18   Pearson chi2:                    0.179
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8708
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.1655      0.500      4.334      0.000       1.186       3.145
+Winter         0.0376      0.072      0.524      0.600      -0.103       0.178
+Spring         0.0552      0.221      0.250      0.802      -0.378       0.488
+Summer         0.0394      0.058      0.676      0.499      -0.075       0.154
+Autumn         0.0365      0.135      0.271      0.787      -0.228       0.301
+==============================================================================
+
+
+GLM Summary for Signal Defects:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No of Accidents   No. Observations:                    1
+Model:                            GLM   Df Residuals:                        0
+Model Family:                 Poisson   Df Model:                            0
+Link Function:                    log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -2.4210
+Date:                Tue, 06 Aug 2024   Deviance:                   8.8818e-16
+Time:                        01:44:36   Pearson chi2:                 2.52e-30
+No. Iterations:                     1   Pseudo R-squ. (CS):              0.000
+Covariance Type:            nonrobust                                         
+====================================================================================================
+                                       coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------
+Point Gaping                         0.2024      0.015     13.397      0.000       0.173       0.232
+Short Circuits                       0.0810      0.006     13.397      0.000       0.069       0.093
+Power Supply Problems                0.0405      0.003     13.397      0.000       0.035       0.046
+Mechanical Failures                  0.1214      0.009     13.397      0.000       0.104       0.139
+Environmental Factors                0.1214      0.009     13.397      0.000       0.104       0.139
+Human Error                          0.2024      0.015     13.397      0.000       0.173       0.232
+Age and Infrastructure Condition     0.0405      0.003     13.397      0.000       0.035       0.046
+====================================================================================================
+
+GLM Summary for Mechanical Defects Analysis:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No of Accidents   No. Observations:                    1
+Model:                            GLM   Df Residuals:                        0
+Model Family:                 Poisson   Df Model:                            0
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -2.9057
+Date:                Tue, 06 Aug 2024   Deviance:                   3.3307e-15
+Time:                        01:45:39   Pearson chi2:                 1.15e-28
+No. Iterations:                     1   Pseudo R-squ. (CS):         -5.684e-14
+Covariance Type:            nonrobust                                         
+=============================================================================================================================================
+                                                                                coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------------------------------------------------------------------
+Wear and Tear of Wheel                                                        0.1114      0.004     28.904      0.000       0.104       0.119
+Fresh breakage of buffer rod of leading coach                                 0.0975      0.003     28.904      0.000       0.091       0.104
+Failure of axle of wagon                                                      0.0418      0.001     28.904      0.000       0.039       0.045
+Bolster spring of suspension broken                                           0.0697      0.002     28.904      0.000       0.065       0.074
+Brake block of dead locomotive fallen down in points and broken the point     0.0279      0.001     28.904      0.000       0.026       0.030
+Pivot pin of coach broken                                                     0.0139      0.000     28.904      0.000       0.013       0.015
+Spring of shackle broken                                                      0.0279      0.001     28.904      0.000       0.026       0.030
+Broken hanger bolt                                                            0.0139      0.000     28.904      0.000       0.013       0.015
+Hot axle                                                                      0.0697      0.002     28.904      0.000       0.065       0.074
+Fresh Breakage of axle box                                                    0.0697      0.002     28.904      0.000       0.065       0.074
+Bent Axle                                                                     0.0418      0.001     28.904      0.000       0.039       0.045
+Warm Box                                                                      0.0139      0.000     28.904      0.000       0.013       0.015
+Low buffer height                                                             0.1114      0.004     28.904      0.000       0.104       0.119
+Shifted Springs                                                               0.0279      0.001     28.904      0.000       0.026       0.030
+=============================================================================================================================================

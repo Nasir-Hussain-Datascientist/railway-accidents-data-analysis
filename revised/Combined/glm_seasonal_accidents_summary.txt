@@ -1,0 +1,22 @@
+
+Model Summary for Seasonal Accidents:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:        No_of_Accidents   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        1
+Model Family:                 Poisson   Df Model:                            4
+Link Function:                    Log   Scale:                          1.0000
+Method:                          IRLS   Log-Likelihood:                -14.859
+Date:                Tue, 06 Aug 2024   Deviance:                      0.17931
+Time:                        01:42:18   Pearson chi2:                    0.179
+No. Iterations:                     4   Pseudo R-squ. (CS):             0.8708
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          2.1655      0.500      4.334      0.000       1.186       3.145
+Winter         0.0376      0.072      0.524      0.600      -0.103       0.178
+Spring         0.0552      0.221      0.250      0.802      -0.378       0.488
+Summer         0.0394      0.058      0.676      0.499      -0.075       0.154
+Autumn         0.0365      0.135      0.271      0.787      -0.228       0.301
+==============================================================================

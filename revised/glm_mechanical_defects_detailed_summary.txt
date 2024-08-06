@@ -1,0 +1,18 @@
+
+
+Wear and Tear of Wheel                                                       0.111447
+Fresh breakage of buffer rod of leading coach                                0.097516
+Failure of axle of wagon                                                     0.041793
+Bolster spring of suspension broken                                          0.069654
+Brake block of dead locomotive fallen down in points and broken the point    0.027862
+Pivot pin of coach broken                                                    0.013931
+Spring of shackle broken                                                     0.027862
+Broken hanger bolt                                                           0.013931
+Hot axle                                                                     0.069654
+Fresh Breakage of axle box                                                   0.069654
+Bent Axle                                                                    0.041793
+Warm Box                                                                     0.013931
+Low buffer height                                                            0.111447
+Shifted Springs                                                              0.027862
+dtype: float64
+
