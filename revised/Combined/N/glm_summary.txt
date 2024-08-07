@@ -1,0 +1,44 @@
+
+Model Summary for Accidents at Track Prediction:
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:     Accidents at Track   No. Observations:                    6
+Model:                            GLM   Df Residuals:                        4
+Model Family:                Gaussian   Df Model:                            1
+Link Function:               identity   Scale:                          6.7934
+Method:                          IRLS   Log-Likelihood:                -13.045
+Date:                Tue, 06 Aug 2024   Deviance:                       27.174
+Time:                        14:35:03   Pearson chi2:                     27.2
+No. Iterations:                     3   Pseudo R-squ. (CS):             0.9927
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const              -4.4039      3.544     -1.242      0.214     -11.351       2.543
+No of Accidents     0.8046      0.149      5.394      0.000       0.512       1.097
+===================================================================================Deviance: 27.1735807860262
+AIC: 30.09017682303733
+Pseudo R-squared (McFadden): 0.8791390031755691
+
+
+Model Summary for Accidents in Station Limits Prediction:
+                      Generalized Linear Model Regression Results                      
+=======================================================================================
+Dep. Variable:     Accidents in Station Limits   No. Observations:                    6
+Model:                                     GLM   Df Residuals:                        4
+Model Family:                         Gaussian   Df Model:                            1
+Link Function:                        identity   Scale:                          6.7934
+Method:                                   IRLS   Log-Likelihood:                -13.045
+Date:                         Tue, 06 Aug 2024   Deviance:                       27.174
+Time:                                 14:35:03   Pearson chi2:                     27.2
+No. Iterations:                              3   Pseudo R-squ. (CS):             0.3011
+Covariance Type:                     nonrobust                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               4.4039      3.544      1.242      0.214      -2.543      11.351
+No of Accidents     0.1954      0.149      1.310      0.190      -0.097       0.488
+===================================================================================Deviance: 27.173580786026204
+AIC: 30.090176823037332
+Pseudo R-squared (McFadden): 0.30025113855726515
+
